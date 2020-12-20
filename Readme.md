@@ -16,4 +16,4 @@ I've implemented the following state machine based on one example of "Microservi
 7. The saga orchestrator sends an Approve Ticket command to Kitchen Service.
 8. The saga orchestrator sends an Approve Order command to Order Service.
 
-
+![state machine](https://res.cloudinary.com/dmg0wwwhg/image/upload/v1608506875/zpyfkti8uhaug9qvdirm.png)
