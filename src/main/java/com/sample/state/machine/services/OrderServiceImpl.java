@@ -73,6 +73,13 @@ public class OrderServiceImpl implements OrderService {
         return null;
     }
 
+    @Override
+    public StateMachine<OrderState, OrderEvent> rejectOrder(Order order) {
+        StateMachine<OrderState, OrderEvent> sm = build(order.getId());
+        sendEvent(order.getId(), sm, OrderEvent.ORDER_REJECTED);
+        return null;
+    }
+
 
     /**
      *

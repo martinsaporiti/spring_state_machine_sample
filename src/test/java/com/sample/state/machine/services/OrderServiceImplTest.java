@@ -74,4 +74,15 @@ class OrderServiceImplTest {
         Order verifyConsumerOrder = repository.getOne(savedOrder.getId());
         assertEquals(OrderState.ORDER_APPROVED.name(), verifyConsumerOrder.getState().name());
     }
+
+    @Test
+    @Transactional
+    void rejectTicket() {
+        Order savedOrder = orderService.newOrder(order);
+        order.setState(OrderState.VERIFYING_CONSUMER);
+        orderService.rejectOrder(order);
+        Order verifyConsumerOrder = repository.getOne(savedOrder.getId());
+        assertEquals(OrderState.ORDER_REJECTED.name(), verifyConsumerOrder.getState().name());
+    }
+
 }

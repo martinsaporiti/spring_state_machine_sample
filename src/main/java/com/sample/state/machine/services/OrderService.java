@@ -23,5 +23,6 @@ public interface OrderService {
 
     StateMachine<OrderState, OrderEvent> approveOrder(Order order);
 
+    StateMachine<OrderState, OrderEvent> rejectOrder(Order order);
 
 }
