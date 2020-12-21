@@ -9,6 +9,7 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 /**
+ * Represents an Order in the application.
  * Created by martin.saporiti
  * on 19/12/2020
  * Github: https://github.com/martinsaporiti

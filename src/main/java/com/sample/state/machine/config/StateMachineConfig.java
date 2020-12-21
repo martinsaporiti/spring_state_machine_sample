@@ -23,6 +23,8 @@ import java.util.EnumSet;
 import java.util.Random;
 
 /**
+ * This class contains the state machine configuration. It defines the transitions between events.
+ * Rules:
  * 1 The saga orchestrator sends a Verify Consumer command to Consumer Service.
  * 2 Consumer Service replies with a Consumer Verified message.
  * 3 The saga orchestrator sends a Create Ticket command to Kitchen Service.

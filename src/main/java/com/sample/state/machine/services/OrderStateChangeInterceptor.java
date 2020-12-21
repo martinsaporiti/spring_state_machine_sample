@@ -15,6 +15,7 @@ import org.springframework.stereotype.Component;
 import java.util.Optional;
 
 /**
+ * This interceptor "handle" the state machine transitions.
  * Created by martin.saporiti
  * on 19/12/2020
  * Github: https://github.com/martinsaporiti
