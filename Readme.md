@@ -6,7 +6,7 @@ This prototype shows how to set up a state machine using Spring.
 
 States Machines are useful when we implement Orchestration-based Sagas in Microservices.
 
-## Context
+## Context -
 I implemented the following state machine based on one example of "Microservices Patterns by  Chris Richardson's" book.
 1. The saga orchestrator sends a Verify Consumer command to Consumer Service.
 2. Consumer Service replies with a Consumer Verified message.
