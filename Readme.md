@@ -1,6 +1,6 @@
 # Spring State Machine Sample
 
-![example workflow file path](https://github.com/martinsaporiti/spring_state_machine_sample/workflows/Java_CI_with_Maven/badge.svg)
+![example workflow file path](https://github.com/martinsaporiti/spring_state_machine_sample/.github/workflows/main.yml/badge.svg)
 
 ## Introduction
 This prototype shows how to set up a state machine using Spring.
